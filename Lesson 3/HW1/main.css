@@ -24,6 +24,7 @@
 .brrd {
     border-radius: 10px;
 }
+/*region Description*
 .block {
     width: 200px;
     height: 100px;
@@ -31,13 +32,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    right: 500px;
+    right: 40%;
 }
+/*endregion*/
 .mini-box {
     width: 100px;
     height: 40px;
     position: relative;
-    left: 60px;
+    right: 30%;
 }
 .fa-main-style {
     font-size: 30px;
@@ -46,7 +48,7 @@
 .fa-solid {
     margin-right: 20px ;
     position: relative;
-    left: 400px;
+    left: 30%;
 }
 .box-content {
     box-sizing: border-box;
