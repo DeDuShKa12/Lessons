@@ -1,0 +1,60 @@
+.w-100 {
+    width: 100%;
+}
+.bg-box {
+    background: #cdd7e0;
+}
+.bg-box2 {
+    background: #102b3e;
+}
+.box1 {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box2 {
+    height: 350px;
+}
+.box3 {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+}
+.brrd {
+    border-radius: 10px;
+}
+.block {
+    width: 200px;
+    height: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 500px;
+}
+.mini-box {
+    width: 100px;
+    height: 40px;
+    position: relative;
+    left: 60px;
+}
+.fa-main-style {
+    font-size: 30px;
+    color: silver;
+}
+.fa-solid {
+    margin-right: 20px ;
+    position: relative;
+    left: 400px;
+}
+.box-content {
+    box-sizing: border-box;
+    background: #6762dd;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin-right: 10px;
+    top: -75px;
+
+}
