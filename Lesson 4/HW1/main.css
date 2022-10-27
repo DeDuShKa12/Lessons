@@ -1,0 +1,69 @@
+.bg-box {
+    background: silver;
+}
+
+.box1 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.minibox1 {
+    box-sizing: border-box;
+    width: 99%;
+    height: 95%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.box2 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+.minibox2 {
+    box-sizing: border-box;
+    width: 69.3%;
+    height: 99%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.minibox3 {
+    box-sizing: border-box;
+    width: 29.3%;
+    height: 99%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.br-radius {
+    border-radius: 10px;
+}
+
+@media screen and (min-width: 0) and (max-width: 1200px) {
+    .box2 {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .minibox2 {
+        width: 99%;
+        height: 68%;
+    }
+    .minibox3 {
+        width: 99%;
+        height: 28%;
+    }
+
+}
